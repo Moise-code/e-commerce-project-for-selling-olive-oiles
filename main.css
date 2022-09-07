@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@500&family=Quicksand:wght@300&display=swap');
 *{
     margin:0;
     padding:0;
@@ -5,5 +6,26 @@
 }
 body{
     box-sizing: border-box;
-    
+    font-family: 'Quicksand', sans-serif;
 }
+.firstnav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+    background: #697B03;
+
+}
+.newsletter{
+    color: #E7E9DB;
+    /* align-self: center; */
+    margin-left: 13rem;
+}
+.firstnav > a{
+    text-decoration: none;
+    color: #E7E9DB;
+    font-size: 1.5em;
+    font-weight: bold;
+
+}
+
