@@ -183,3 +183,24 @@ background-image: url(/assets/bkgr-fasha\ 1.png);
     margin-left: 7.3rem;
     align-self: flex-start;
 }
+.product{
+display: flex;
+flex-direction: row;
+padding: 4rem;
+}
+.product > img{
+    margin-right:3rem;
+}
+.production > p{
+    font-size: 1.4em;
+    margin-top: 1.4rem;
+    margin-bottom: 1.6rem;
+    margin-left: .75rem;
+    font-weight: bold;
+}
+.production > a{
+    text-decoration: none;
+    color: #7E4E24;
+    font-weight: bold;
+    margin-left: .75rem;
+}
