@@ -103,5 +103,33 @@ background: rgba(231,233, 219, 0.5);
     left: 0%;
     z-index: -2;
 }
+.who-we-are{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding: 10rem;
+    padding-left: 6rem;
+    padding-top: 16rem;
+    justify-content: space-between;
+}
+.who-we-are-image > img{
+margin-right: 3rem;
+}
+.side-olive-text{
 
-
+}
+.side-olive-text > p{
+font-size: 20px;
+width: 420px;
+font-weight: bold;
+margin-top: 1.5rem;
+margin-bottom: 1.5rem;
+margin-left: 1.5rem;
+}
+.side-olive-text > a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #7E4E24;
+    margin-left: 1.5rem;
+}
