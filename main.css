@@ -133,3 +133,53 @@ margin-left: 1.5rem;
     color: #7E4E24;
     margin-left: 1.5rem;
 }
+.what-we-do{
+    display: flex;
+    flex-direction: column;
+    justify-items:center;
+    align-items: center;
+    column-gap: 20px;
+    background:#F7EECD;
+    padding: 3rem;
+    margin-bottom: 1rem;
+    margin-top: -6rem;
+    /* padding-bottom: 2.5rem; */
+}
+.what-we-do > img{
+    margin-bottom: 3rem;
+    width:300px;
+    
+}
+.health-is-wealth{
+display:flex;
+flex-direction: column;
+align-items: center;
+color: #7E4E24;
+padding: 8rem;
+justify-content: center;
+justify-items: center;
+margin-bottom: 2rem;
+background-image: url(/assets/bkgr-fasha\ 1.png);
+}
+.health-is-wealth >p{
+    display: flex;
+    font-size: 3rem;
+    width: 1200px;
+    color:#7E4E24;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    
+}
+.health-is-wealth >a{
+    text-decoration: none;
+    color: #7E4E24;
+    font-weight: bold;
+    padding: 2rem;
+    align-self: flex-end;
+}
+.health-is-wealth>h4{
+    font-weight: bold;
+    margin-left: 7.3rem;
+    align-self: flex-start;
+}
