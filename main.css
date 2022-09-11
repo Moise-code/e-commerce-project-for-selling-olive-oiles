@@ -204,3 +204,64 @@ padding: 4rem;
     font-weight: bold;
     margin-left: .75rem;
 }
+.business-together{
+    display: flex;
+    flex-direction: row;
+    background-image: url(/assets/big-background.png);
+    padding-top:6rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 6rem;
+    margin-bottom: 2rem;
+    /* border-bottom: solid 7px #7E4E24; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.40);
+}
+.business-together >img{
+    width: 800px;
+
+}
+.natural-products{
+    position: relative;
+    left: -20%;
+    display:flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 4rem;
+    
+
+}
+.natural-products >h3{
+    color: #7E4E24;
+    margin-bottom: 1rem;
+
+}
+.natural-products >h1{
+    color: #697B03;
+    font-size: 3rem;
+    width: 600px;
+    margin-bottom: 2rem;
+}
+.natural-products >p{
+    color: #7E4E24;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.natural-products >button{
+    background: #697B03;
+    border-radius: 4px;
+    padding: 1rem;
+    width: 200px;
+    border:#697B03 solid .50px;
+    color: #E7E9DB;
+    margin-top: 2rem;
+}
+.dooo{
+    color:#7E4E24
+}
