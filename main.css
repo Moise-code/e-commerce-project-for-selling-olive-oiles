@@ -115,8 +115,18 @@ background: rgba(231,233, 219, 0.5);
 .who-we-are-image > img{
 margin-right: 3rem;
 }
-.side-olive-text{
-
+.who-we-are-image >img{
+    transition: 1s ease-in-out;
+}
+.who-we-are-image:hover>img.zoom{
+    transform: scale(1.1);
+    filter: grayscale(1);
+}
+.side-olive-text >img{
+    transition: 1s ease-in-out;
+}
+.side-olive-text:hover >img.blur{
+    filter: blur(5px);
 }
 .side-olive-text > p{
 font-size: 20px;
@@ -329,7 +339,7 @@ padding: 4rem;
     font-size: bold;
     color: #697B03;
     font-weight: bold;
-    margin-left: 6  rem;
+    margin-left: 6rem;
 }
 .logo-newsletter>h3{
     margin-bottom: 1rem;
