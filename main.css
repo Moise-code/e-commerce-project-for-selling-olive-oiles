@@ -139,7 +139,7 @@ margin-left: 1.5rem;
     justify-items:center;
     align-items: center;
     column-gap: 20px;
-    background:#F7EECD;
+    /* background:#F7EECD; */
     padding: 3rem;
     margin-bottom: 1rem;
     margin-top: -6rem;
@@ -212,7 +212,7 @@ padding: 4rem;
     padding-left: 4rem;
     padding-right: 4rem;
     padding-bottom: 6rem;
-    margin-bottom: 2rem;
+    /* margin-bottom: 2rem; */
     /* border-bottom: solid 7px #7E4E24; */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.40);
 }
@@ -265,3 +265,86 @@ padding: 4rem;
 .dooo{
     color:#7E4E24
 }
+.get-in-touch{
+    display: flex;
+    flex-direction: row;
+    padding: 6rem;
+    justify-content: space-around;
+    background: #F6F6F6;   
+}
+.logo-pro{
+    display: flex;
+    flex-direction: column;
+    width: 16rem;
+}
+.logo-pro >a{
+    text-decoration: none;
+    color: #697B03;
+    font-size: 14px;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+}
+.new-release{
+    display: flex;
+    flex-direction: column;
+    width: 16rem;
+}
+.new-release> a{
+    text-decoration: none;
+    color: #697B03;
+    font-size: 14px;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+}
+.News-tips{
+    display: flex;
+    flex-direction: column;
+    width: 16rem;
+}
+.News-tips>h3{
+    margin-bottom: 1rem;
+    color: #697B03;
+    font-size: 15px;
+}
+.News-tips >p{
+    width: 17rem;
+    color: #697B03;
+    font-weight: bolder;
+    font-size: 14px;
+    margin-bottom: 1rem;
+}
+.News-tips>button{
+    background:none;
+    border: 1.6px solid #7E4E24;
+    padding: .8rem;
+    font-size: 12px;
+    font-weight: lighter;
+    color: #7E4E24;
+    width: 8rem;
+    border-radius: 4px;
+}
+.logo-newsletter{
+    width: 16rem;
+    font-size: 13px;
+    font-size: bold;
+    color: #697B03;
+    font-weight: bold;
+    margin-left: 6  rem;
+}
+.logo-newsletter>h3{
+    margin-bottom: 1rem;
+    width:8rem;
+}
+.logo-newsletter>p{
+    margin-bottom: 1rem;
+    width: 16rem;
+}
+.logo-newsletter>button{
+    background: none;
+    border: 1.6px solid #7E4E24;
+    padding: .8rem;
+    color: #7E4E24;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+
