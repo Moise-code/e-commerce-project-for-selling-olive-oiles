@@ -7,13 +7,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>login form</title>
     <link rel="stylesheet" href="/styles/login.css">
+    <link rel="stylesheet" href="/styles/shared.css">
     <script src="/scripts/login.js" defer></script>
 </head>
 
 <body>
+    <nav class="firstnav">
+        <h3 class="newsletter">Sign up for free newsletters and get more green Olives delivered to your inbox.</h3>
+        <a href="">X</a>
+     
+    </nav>
+    <nav class="second-nav">
+        <img src="/assets/olives_logo.png" alt="">
+        <div class="listing">
+            <a href="/index.html">Home</a>
+            <a href="">What we do</a>
+            <a href="">The product</a>
+            <a href="">Health</a>
+            <a href="/login.html">Create Account</a>
+            <button>LET'S DO BUSINESS</button>
+        </div>
+    </nav>
     <form data-multi-step class="multi-step-form">
+        <div class="numbo">
+            <h2>1</h2>
+            <h2>2</h2>
+            <h2>3</h2>
+        </div>
+        <div class="rd">
+            <h2>SET UP YOUR ACCOUNT</h2>
+            <h2>SOCIAL PROFILES</h2>
+            <h2>PERSONAL DETAILS</h2>
+        </div>
         <div class="card" data-step="1">
-            <h1 class="step-title">This is step 1</h1>
+            <h1 class="step-title">Create your account</h1>
+            <h3 class="step-title">Your Email address and password please</h3>
             <div class="form-group">
                 <label for="email">Email</label>
                 <input type="email" required name="email" id="email">
@@ -33,7 +61,8 @@
             </div>
         </div>
         <div class="card" data-step="2">
-            <h1 class="step-title">This is step 2</h1>
+            <h1 class="step-title">Social Profiles</h1>
+            <h3 class="step-title">Your Presence On The Social Network</h3>
             <div class="form-group">
                 <label for="address">Address</label>
                 <input type="text" name="address" id="address">
@@ -52,7 +81,8 @@
             </div>
         </div>
         <div class="card" data-step="3">
-            <h1 class="step-title">This is step 3</h1>
+            <h1 class="step-title">Personal Details</h1>
+            <h3 class="step-title">We will never sell it</h3>
             <div class="form-group">
                 <label for="firstName">First Name</label>
                 <input type="text" name="firstName" id="firstName">

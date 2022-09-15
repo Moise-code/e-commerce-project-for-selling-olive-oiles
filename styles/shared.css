@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@500&family=Quicksand:wght@300&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+.firstnav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+    background: #697B03;
+    position: relative;
+    z-index: 100;
+
+}
+.firstnav >.newsletter{
+    color: #E7E9DB;
+    /* align-self: center; */
+    margin-left: 13rem;
+    transition: .6s ease-in-out;
+}
+.firstnav:hover>.newsletter{
+    font-size: 1rem;
+    letter-spacing: 2px;
+    box-shadow: 14px 0px 0px 0px #E7E9DB;
+}
+.firstnav > a{
+    text-decoration: none;
+    color: #E7E9DB;
+    font-size: 1.5em;
+    font-weight: bold;
+
+}
+.second-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* padding: 1.5rem; */
+    padding-top: 1.5rem;
+    vertical-align: middle;
+    position: relative;
+    z-index: 90;
+
+}
+.second-nav img{
+    vertical-align: middle;
+    width: 100px;
+    height: 40px;
+    margin-top: 0.2rem;
+
+}
+.listing > a{
+    margin-right:2rem; 
+    text-decoration: none;
+    color: #697B03;
+    font-weight: bold;
+    vertical-align: middle;
+    transition: .3s ease-in-out;
+    /* margin-bottom: 4rem; */
+}
+.listing:hover >a{
+    /* border-bottom: 3px solid #697B03; */
+font-size: 20px;
+color: #697B03;
+}
+.listing >button{
+border: solid 2px #697B03;
+border-radius: 4px;
+padding: 1rem;
+font-family:'Quicksand', sans-serif;
+font-weight: bold;
+color: #697B03;
+background-blend-mode: color-burn;
+background: rgba(231,233, 219, 0.5);
+transition: .6s ease-in-out;
+}
+.listing:hover>button{
+    border: 2px solid #697B03;
+    background: #697B03;
+    color: #E7E9DB;
+
+}
